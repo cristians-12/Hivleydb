@@ -1,0 +1,289 @@
+body{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: black;
+}
+h2{
+    color: white;
+}
+input{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+.container .boton{
+    background-color: #FFA410;
+    font-weight: 600;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 40px;
+    margin-top: 20%;
+    line-height: 27px;
+}
+
+.container .boton:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.5s ease 0.2s;
+}
+
+.popup{
+    /* display: none; */
+    visibility: hidden;
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    top: 24%;
+    left: -1%;
+    transition: all 0.1s ease 0.1s;
+}
+.popup h2{
+    font-weight: 600;
+}
+.popup .boton1{
+    background-color: #FFA410;
+    font-weight: 600;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 81px;
+    margin-top: 10%;
+    line-height: 27px;
+}
+.popup .boton1:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.5s ease 0.2s;
+}
+.popup #textlog{
+    font-size: 20px;
+    margin: 12px;
+}
+.popup .login{
+    color: #FFA410;
+    font-size: 20px;
+}
+.popup h3{
+    color: #FFA410;
+}
+#form1{
+    margin-top: 15%;
+}
+
+/* -------------------Estilos pagina register.html---------------- */
+
+.floatmenu{
+    background-color: #FFA410;
+    padding: 4px 20px;
+    width: 90%;
+    margin-bottom: 5%;
+    border-radius: 20px;
+    /* display: none; */
+}
+.floatmenu h5{
+    font-size: 7px;
+    font-weight: 600;
+}
+.floatmenu img{
+    padding: 5px 0px;
+}
+
+.container #buscar{
+    width: 90%;
+    background-color: #FFA410;
+    margin-top: 25%;
+    color: black;
+    margin-left: 5%;
+}
+.container #buscar::placeholder{
+    color: black;
+    font-weight: 600;
+}
+.main h4,.main2 h4{
+    color: #FFA410;
+    font-weight: 600;
+}
+.main h5{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.main h6{
+    color:white;
+    font-size: 8px;
+    font-weight: 600;
+}
+.main .figura{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 39%;
+    position: absolute;
+    height: 20px;
+    top: 3%;
+    right: 16%;
+    border-radius: 10px;
+}
+.main .estrella{
+    margin: 1px -1px 3px 5px;
+}
+.main .figura h6{
+    color: #FFA410;
+    margin: 4px 0px 0px 3px;
+    font-size: 11px;
+}
+.main button{
+    background-color: #FFA410;
+    width: 58%;
+    border: none;
+    margin: 4% 0 0 20%;
+    padding: 3% 3%;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+.com{
+    background-color: white;
+    width: 40%;
+    padding: 5px 0px;
+    border-radius: 10px;
+}
+.com #comt{
+    font-weight: 600;
+    font-size: 15px;
+    color: black;
+}
+
+.main2 p{
+    color: white;
+    margin: 0;
+    font-weight: 600;
+}
+.main2 h5{
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+.main2 .estrella{
+    position: absolute;
+}
+.main2 h6{
+    font-size: 11px;
+    color: grey;
+}
+
+.main2 #edos{
+    left: 16%;
+}
+.main2 #etres{
+    left: 26%;
+}
+.main2 #ecuatro{
+    right: 56%;
+}
+.main2 #see{
+    color: #FFA410;
+    margin-left: 32%;
+    font-weight: 600;
+}
+.main2 .coment{
+    padding-bottom: 15%;
+}
+
+/* --------------------Popup-------------------------------- */
+
+.popupadd{
+    width: 100%;
+    background-color: rgba(27, 24, 24, 0.6);
+    position: fixed;
+    top: 0%;
+    height: 100%;
+    display: none;
+}
+.popupadd .popup1{
+    margin-top: 40%;
+    background-color: #FFA410;
+    width: 80%;
+    padding: 3% 5%;
+    margin-left: 9%;
+    border-radius: 6%;
+}
+.popup1 #lservicio{
+    margin-right: 5%;
+}
+.popup1 #btnsub{
+    width: 50%;
+    color: black;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    font-weight: 600;
+}
+.popupadd #btnclose{
+    padding: 3% 16%;
+    font-weight: 600;
+    border-radius: 13px;
+    border: none;
+    background: #eb4f4f;
+    box-shadow: 4px 10px 22px #201f1f;
+}
+.popup1 #opcionesc{
+    padding: 3% 25%;
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+
+.popupadd1{
+    width: 100%;
+    background-color: rgba(27, 24, 24, 0.6);
+    position: fixed;
+    top: 0%;
+    height: 100%;
+    display: none;
+}
+.popupadd1 #btncerrar{
+    /* margin-top: 130%; */
+    /* margin-left: 30%; */
+    padding: 2% 12%;
+    border-radius: 20px;
+    background-color: #FFA410;
+    font-weight: 600;
+    border: none;
+    top: 80%;
+    position: absolute;
+    left: 31%;
+}
+
+.imgpopupdos{
+    /* margin: 49% 24%; */
+    width: 50%;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+}
+.textpopup{
+    margin: 11% 7%;
+    position: absolute;
+    background-color: #FFA410;
+    top: 35%;
+    border-radius: 22px;
+    padding: 5% 10%;
+    font-weight: 600;
+}
+
+.popupadd1 #btnborserv{
+    background: aliceblue;
+    border: none;
+    padding: 3% 3%;
+    position: absolute;
+    top: 72%;
+    left: 31%;
+    border-radius: 20px;
+    font-weight: 600;
+}
